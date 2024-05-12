@@ -1,0 +1,228 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 140vh;
+    width: 100%;
+
+    background: url(img/bg2.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.form-box {
+    position: relative;
+    width: 400px;
+    height: 1140px;
+    background: transparent;
+    border: 2.5px solid rgba(255, 255, 255, 1);
+    border-radius: 0px;
+    backdrop-filter: blur(15px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h2 {
+    font-size: 2em;
+    color: #fff;
+    text-align: center;
+}
+
+.inputbox {
+    position: relative;
+    margin: 30px 0;
+    width: 310px;
+    border-bottom: 2px solid #fff;
+}
+
+.inputbox label {
+    position: absolute;
+    top: 50%;
+    left: 5px;
+    transform: translateY(-50%);
+    color: #fff;
+    font-size: 1em;
+    pointer-events: none;
+    transition: 0.5s;
+}
+
+input:focus ~ label,
+input:valid ~ label {
+    top: -5px;
+}
+
+.inputbox input {
+    width: 100%;
+    height: 50px;
+    background: transparent;
+    border: none;
+    outline: none;
+    font-size: 1em;
+    padding: 0 35px 0 5px;
+    color: #fff;
+}
+
+.inputbox ion-icon {
+    position: absolute;
+    right: 8px;
+    color: #fff;
+    font-size: 1.2em;
+    top: 20px;
+}
+
+button {
+    width: 100%;
+    height: 40px;
+    border-radius: 0px;
+    background: #fff;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    font-size: 1em;
+    font-weight: 600;
+}
+
+.bottom {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    color: #fff;
+    margin-top: 20px;
+}
+
+label a {
+    text-decoration: none;
+    color:#fff;
+}
+
+input[type="date"] {
+    width: 100%;
+    padding: 0 8px 0 3px;
+    margin-top: none;
+    margin-bottom: none;
+    box-sizing: border-box;
+    background-color: #fff;
+    font-size: 1em;
+    color: #fff;
+    text-align: left;
+    outline: none;
+    cursor: text;
+    background: transparent;
+}
+
+input[type="date"]::-webkit-calendar-picker-indicator {
+    display: none;
+}
+
+input[type="file"] {
+    width: 100%;
+    padding:0 8px 0 3px;
+    margin-top: none;
+    margin-bottom: none;
+    box-sizing: border-box;
+    background-color: #fff;
+    background: transparent;
+    font-size: 1em;
+    color: #fff;
+    text-align: left;
+    outline: none;
+    cursor: pointer;
+}
+
+input[type="file"] {
+    display: none;
+}
+
+.custom-file-upload {
+    display: inline-block;
+    padding: 10px 2px;
+    margin-bottom: 3px;
+    cursor: pointer;
+    background-color: #000000;
+    color: #fff;
+    background: transparent;
+    border: #fff;
+    box-sizing: border-box;
+    border: none;
+}
+
+.inputboxforfile {
+    position: relative;
+    margin: 30px 0;
+    width: 310px;
+    border-bottom: 2px solid #fff; 
+}
+
+.inputboxforfile ion-icon {
+    position: absolute;
+    right: 8px;
+    color: #fff;
+    font-size: 1.2em;
+    top: 15px; 
+}
+
+select {
+    width: 100%;
+    padding: 8px 3px;
+    margin-top: none;
+    margin-bottom: 5px;
+    background-color: #000000;
+    font-size: 1em;
+    color: #ffffff;
+    text-align: left;
+    outline: none;
+    cursor: pointer;
+    background: transparent;
+    box-sizing: none;
+    -webkit-appearance: none;
+    appearance: none;
+    border: none;
+}
+
+select option {
+    color: #000000;
+}
+
+.inputboxselect {
+    margin-bottom: 10px;
+    position: relative;
+    margin: 30px 0;
+    width: 310px;
+    border-bottom: 2px solid #fff;   
+}
+
+.inputboxselect ion-icon {
+    position: absolute;
+    right: 8px;
+    color: #fff;
+    font-size: 1.2em;
+    top: 10px; 
+}
+
+.logo {
+    height: 28px;
+    width: 30px;
+    position: relative;
+    top: -603px;
+    left: -470px;
+}
+
+
+span {
+    margin: 0 0 0 10px;
+    font-size: 15px;
+    font-weight: 800;
+    text-transform: uppercase;
+    color: #ffffff;
+    position: relative;
+    top: -603px;
+    left: -470px;
+}
