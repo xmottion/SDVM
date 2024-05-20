@@ -6,15 +6,11 @@
     <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/iosicons.js"></script>
     <link rel="stylesheet" href=style.css>
     <link rel="website icon" type="png" href="img/webicon.png">
-    <script src=’https://www.google.com/recaptcha/api.js’></script>
+    <script src=â€™https://www.google.com/recaptcha/api.jsâ€™></script>
 </head>
 <body>
     <form method="post" action="register.php" enctype="multipart/form-data">
     <div class="container">
-        <a class="logo" href="#0">
-            <img src="img/logo.png" alt="SDVM">
-          </a>
-          <span>SDVM</span>
         <div class="form-box">
             <div class="form-value"> 
                     <h2>Registration</h2>
