@@ -206,23 +206,3 @@ select option {
     font-size: 1.2em;
     top: 10px; 
 }
-
-.logo {
-    height: 28px;
-    width: 30px;
-    position: relative;
-    top: -603px;
-    left: -470px;
-}
-
-
-span {
-    margin: 0 0 0 10px;
-    font-size: 15px;
-    font-weight: 800;
-    text-transform: uppercase;
-    color: #ffffff;
-    position: relative;
-    top: -603px;
-    left: -470px;
-}
