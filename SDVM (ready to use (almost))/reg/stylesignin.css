@@ -102,22 +102,3 @@ label a {
     text-decoration: none;
     color:#fff;
 }
-
-.logo {
-    height: 28px;
-    width: 30px;
-    position: relative;
-    top: -420px;
-    left: -480px
-}
-
-span {
-    margin: 0 0 0 10px;
-    font-size: 15px;
-    font-weight: 800;
-    text-transform: uppercase;
-    color: #ffffff;
-    position: relative;
-    top: -420px;
-    left: -480px;
-}
