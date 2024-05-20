@@ -10,10 +10,6 @@
 <body>
     <form method="post" action="login.php">
     <div class="container">
-        <a class="logo" href="#0">
-            <img src="img/logo.png" alt="SDVM">
-          </a>
-          <span>SDVM</span>
         <div class="form-box">
             <div class="form-value"> 
                     <h2>Sign In</h2>
